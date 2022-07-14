@@ -1,5 +1,5 @@
 # USA car accidents analysis
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ishandandekar/What_Am_I_Eating/blob/main/make_the_batter.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ishandandekar/USA-accidents-analysis/blob/main/analysis.ipynb)
 <p align="center">
     <img width=300 height=170 src="assets/Kowalski.jpg">
 </p>
