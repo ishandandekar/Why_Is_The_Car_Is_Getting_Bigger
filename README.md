@@ -17,7 +17,13 @@ The data is originally collected using various APIs that provide streaming by a 
 To get the data on local machine I used the [**`opendatasets`**](https://github.com/JovianML/opendatasets) library, which uses the Kaggle API keys to download the data easily on your system.
 
 ## Insights
-
+<center>
+<img src="assets/cities.png" alt="cities" width="200" height="160"/>
+<img src="assets/dayofweek.png" alt="cities" width="250" height="160"/>
+<img src="assets/heatmap.png" alt="cities" width="200" height="160"/>
+</center>
+The data contained lots of NA values, around 3414350 of them. The analysis was mostly focused on the geolocation of the accidents, weather conditions and severity of an accident.  
+While analysing the cities column I found out that Miami had the most number of accidents, followed by Los Angeles and Orlando. These cities are often the places where tourists go. 
 
 ## Tools and libraries
 * Python
@@ -30,11 +36,11 @@ To get the data on local machine I used the [**`opendatasets`**](https://github.
 * Opendatasets
 
 ## Contents of the repository
-* *assets*: This folder contains the images of plots, the python file to make these plots and other supporting material used to make this README file and the Medium article.
+* *assets*: This folder contains the images of plots and other supporting material used to make this README file and the Medium article.
 * *.gitignore*: This file is used to omit the tracking of unwanted files, so that they are not present in the repository while presenting.
 * *analysis.ipynb*: This is the original jupyter notebook used for the analysis. The notebook has three parts, which include donwloading the data, cleaning the data and then finally analysis of data. The notebook also has the original plots which helped the analysis and making the README.
-* *us-accidents*: This folder contains the data which was used for this analysis. This data is available on [Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents).
 * *README.md*: This is a markdown file which is used to document the project, to make people understand this project better. This file is displayed on the Github repository as well.
+* *requirements.txt*: As the convention goes, this file can be used to replicate the `conda` environment used to run the jupyter notebook.
 
 
 A special thanks to [Aakash Rao N S](https://jovian.ai/aakashns) for this project.
