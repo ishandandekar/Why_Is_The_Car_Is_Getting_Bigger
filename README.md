@@ -17,11 +17,9 @@ The data is originally collected using various APIs that provide streaming by a 
 To get the data on local machine I used the [**`opendatasets`**](https://github.com/JovianML/opendatasets) library, which uses the Kaggle API keys to download the data easily on your system.
 
 ## Insights
-<center>
-<img src="assets/cities.png" alt="cities" width="200" height="160"/>
-<img src="assets/dayofweek.png" alt="cities" width="250" height="160"/>
-<img src="assets/heatmap.png" alt="cities" width="200" height="160"/>
-</center>
+<p align="center">
+    <img width=300 height=140 src="assets/myimage.png">
+</p>
 The data contained lots of NA values, around 3414350 of them. The analysis was mostly focused on the geolocation of the accidents, weather conditions and severity of an accident.  
 While analysing the cities column I found out that Miami had the most number of accidents, followed by Los Angeles and Orlando. These cities are often the places where tourists go. 
 
