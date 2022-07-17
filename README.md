@@ -20,9 +20,6 @@ To get the data on local machine I used the [**`opendatasets`**](https://github.
 <p align="center">
   <img src="assets/myimage.png" alt="Plots" style="width:100%">
 </p>
-<p align="center" style="font-size: 14px">
-Plots from the data
-</p>
 The data contained lots of NA values, around 3414350 of them. The analysis was mostly focused on the geolocation of the accidents, weather conditions and severity of an accident.  
 While analysing the cities column I found out that Miami had the most number of accidents, followed by Los Angeles and Orlando. These cities are often the places where tourists go. There are around 1000 cities which have reported only 1 accidents. This could indicate missing data. The state of California has the most number of accidents followed by Florida. A high percentage of accidents happen between 3 PM to 5 PM, maybe because the people who work in the day return during this time. Most number of accidents have happened in the weekdays rather than weekends. A lot of data is missing for the year 2020. This could also be because of the pandemic, as people receded from leaving their homes and worked from home. The number of accidents increased at the end of every year. But, they all followed the same pattern throughout. A large number of accidents have been labelled with a severity of 2. There were less number of accidents relatively.
 
