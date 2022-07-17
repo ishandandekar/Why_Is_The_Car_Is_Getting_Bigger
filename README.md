@@ -20,7 +20,7 @@ To get the data on local machine I used the [**`opendatasets`**](https://github.
 <p align="center">
   <img src="assets/myimage.png" alt="Plots" style="width:100%">
 </p>
-<p align="center">
+<p align="center" style="font-size: 14px">
 Plots from the data
 </p>
 The data contained lots of NA values, around 3414350 of them. The analysis was mostly focused on the geolocation of the accidents, weather conditions and severity of an accident.  
