@@ -18,7 +18,7 @@ To get the data on local machine I used the [**`opendatasets`**](https://github.
 
 ## Insights
 <p align="center">
-    <img width=600 height=280 src="assets/myimage.png">
+    <img width=750 height=350 src="assets/myimage.png">
 </p>
 The data contained lots of NA values, around 3414350 of them. The analysis was mostly focused on the geolocation of the accidents, weather conditions and severity of an accident.  
 While analysing the cities column I found out that Miami had the most number of accidents, followed by Los Angeles and Orlando. These cities are often the places where tourists go. 
