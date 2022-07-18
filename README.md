@@ -33,11 +33,12 @@ While analysing the cities column I found out that Miami had the most number of 
 * Opendatasets
 
 ## Contents of the repository
-* *assets*: This folder contains the images of plots and other supporting material used to make this README file and the Medium article.
+* *assets*: This folder contains the images of plots, python file used for making plots and other supporting material used to make this README file and the Medium article.
 * *.gitignore*: This file is used to omit the tracking of unwanted files, so that they are not present in the repository while presenting.
 * *analysis.ipynb*: This is the original jupyter notebook used for the analysis. The notebook has three parts, which include donwloading the data, cleaning the data and then finally analysis of data. The notebook also has the original plots which helped the analysis and making the README.
 * *README.md*: This is a markdown file which is used to document the project, to make people understand this project better. This file is displayed on the Github repository as well.
 * *requirements.txt*: As the convention goes, this file can be used to replicate the `conda` environment used to run the jupyter notebook.
+> :bulb:**Note:** Due to Github's remote repository limits the folder containing the data was not added.
 
 
 A special thanks to [Aakash Rao N S](https://jovian.ai/aakashns) for this project.
