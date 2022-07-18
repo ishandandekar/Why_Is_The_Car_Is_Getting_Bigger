@@ -5,7 +5,6 @@
 </p>
 
 👋 Hello and welcome to the USA car accidents analysis repository. This is my first tabular data analysis project using Python. Hope you like it!
-Check out the [Medium](https://medium.com/@ishandandekar/foodvision-3843f38be45e) article as a supplement to this README.
 
 ## Introduction
 I did this project to learn the skill of exploratory data analysis. EDA or Exploratory Data Analysis is an important step before predicting variables using machine learning. It helps us identify important features using graphical representation, detection of anomalies, testing of hypotheses etc. In other words, EDA is a data exploration technique to understand aspects of data.  
