@@ -6,7 +6,7 @@
     <img width=300 height=170 src="assets/Kowalski.jpg">
 </p>
 
-👋 Hello and welcome to the **Why_Is_The_Car_Getting_Bigger** repository. This is my first tabular data analysis project using Python. Hope you like it!
+👋 Hello and welcome to the **Why_Is_The_Car_Getting_Bigger** code repository. This is my first tabular data analysis project using Python. This project comprises of the analysis done on the data of accidents happening in USA. Hope you like it!
 
 ## Introduction
 
@@ -16,8 +16,8 @@ In this project I have analysed the accidents occured in USA (United States of A
 
 ## Data
 
-The data is originally collected using various APIs that provide streaming by a variety of enities, such as the US and state departments of transportation, law enforcemnt agencies, traffi cameras, and traffic sensors within the road-networks. Although for this project I have the data already available on [Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents). The data has a total of **2.8 million accident records** with **2845342 rows and 47 columns** which was collected from **February 2016** to **December 2021**.  
-To get the data on local machine I used the [**`opendatasets`**](https://github.com/JovianML/opendatasets) library, which uses the Kaggle API keys to download the data easily on your system.
+The data is originally collected using various APIs that provide streaming by a variety of enities, such as the US and state departments of transportation, law enforcemnt agencies, traffi cameras, and traffic sensors within the road-networks. Although for this project I have the data already available on [Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents). The data has a total of **2.8 million accident records** with **47 features** which was collected from **February 2016** to **December 2021**.  
+To get the data on local machine I used the [**opendatasets**](https://github.com/JovianML/opendatasets) library, which uses the Kaggle API keys to download the data easily on your system.
 
 ## Insights
 
@@ -40,11 +40,21 @@ While analysing the cities column I found out that Miami had the most number of 
 
 ## Contents of the repository
 
-- _assets_: This folder contains the images of plots, python file used for making plots and other supporting material used to make this README file and the Medium article.
-- _.gitignore_: This file is used to omit the tracking of unwanted files, so that they are not present in the repository while presenting.
-- _analysis.ipynb_: This is the original jupyter notebook used for the analysis. The notebook has three parts, which include donwloading the data, cleaning the data and then finally analysis of data. The notebook also has the original plots which helped the analysis and making the README.
-- _README.md_: This is a markdown file which is used to document the project, to make people understand this project better. This file is displayed on the Github repository as well.
-- _requirements.txt_: As the convention goes, this file can be used to replicate the `conda` environment used to run the jupyter notebook.
-  > :bulb:**Note:** Due to Github's remote repository limits, the folder containing the data was not added. As stated above, if you want to get the data on local machine, you can use the `opendatasets` library or directly donwload the data from [Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents).
+```
+Why_Is_The_Car_Getting_Bigger/
+├─ assets/
+├─ .gitignore
+├─ README.md
+├─ analysis.ipynb
+├─ requirements.txt
+```
+
+- _assets_ : This folder contains the images of plots, python file used for making plots and other supporting material used to make this README file and the Medium article.
+- _.gitignore_ : This file is used to omit the tracking of unwanted files, so that they are not present in the repository while presenting.
+- _README.md_ : This is a markdown file which is used to document the project, to make people understand this project better. This file is displayed on the Github repository as well.
+- _analysis.ipynb_ : This is the original jupyter notebook used for the analysis. The notebook has three parts, which include donwloading the data, cleaning the data and then finally analysis of data. The notebook also has the original plots which helped the analysis and making the README.
+- _requirements.txt_ : As the convention goes, this file can be used to replicate the `conda` environment used to run the jupyter notebook.
+
+> :bulb:**Note:** Due to Github's remote repository limits, the folder containing the data was not added. As stated above, if you want to get the data on local machine, you can use the `opendatasets` library or directly donwload the data from [Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents).
 
 A special thanks to [Aakash Rao N S](https://jovian.ai/aakashns) for this project.
