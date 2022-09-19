@@ -55,6 +55,6 @@ Why_Is_The_Car_Getting_Bigger/
 - _analysis.ipynb_ : This is the original jupyter notebook used for the analysis. The notebook has three parts, which include donwloading the data, cleaning the data and then finally analysis of data. The notebook also has the original plots which helped the analysis and making the README.
 - _requirements.txt_ : As the convention goes, this file can be used to replicate the `conda` environment used to run the jupyter notebook.
 
-> :bulb:**Note:** Due to Github's remote repository limits, the folder containing the data was not added. As stated above, if you want to get the data on local machine, you can use the `opendatasets` library or directly donwload the data from [Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents).
+> **Note** : Due to Github's remote repository limits, the folder containing the data was not added. As stated above, if you want to get the data on local machine, you can use the `opendatasets` library or directly donwload the data from [Kaggle](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents).
 
 A special thanks to [Aakash Rao N S](https://jovian.ai/aakashns) for this project.
